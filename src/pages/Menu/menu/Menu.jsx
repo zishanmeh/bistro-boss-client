@@ -28,23 +28,26 @@ const Menu = () => {
         subHeading={"Don't miss"}
       ></SectionTitle>
       {/* Offered menu items */}
-      <MenuCategory items={offered}></MenuCategory>
+      <MenuCategory items={offered} dish={"offered"}></MenuCategory>
       {/* Dessert menu items */}
       <MenuCategory
         items={desserts}
         title={"Dessert's"}
+        dish={"dessert"}
         bgImg={dessetBg}
       ></MenuCategory>
       {/* Pizza menu items */}
       <MenuCategory
         items={pizza}
         title={"Pizza's"}
+        dish={"pizza"}
         bgImg={pizzaBg}
       ></MenuCategory>
       {/* salad menu items */}
       <MenuCategory
         items={salad}
         title={"Salad's"}
+        dish={"salad"}
         bgImg={saladBg}
       ></MenuCategory>
       {/* Soup menu items */}
